@@ -1,0 +1,35 @@
+{
+  "name": "email_automation_tool",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@azure/msal-node": "^2.9.2",
+    "@types/node": "^20.14.8",
+    "axios": "^1.7.2",
+    "bullmq": "^5.8.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "google-auth-library": "^9.11.0",
+    "googleapis": "^140.0.0",
+    "imap-simple": "^5.1.0",
+    "mailparser": "^3.7.1",
+    "mongoose": "^8.4.3",
+    "nodemailer": "^6.9.14",
+    "openai": "^4.52.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/imap-simple": "^4.2.9",
+    "@types/mailparser": "^3.4.4",
+    "@types/nodemailer": "^6.4.15"
+  }
+}
